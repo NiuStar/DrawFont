@@ -1,0 +1,3 @@
+g++ -o DrawFont.o -c DrawFont.cpp -I/Volumes/Mac12/opt/X11/include/freetype2 -L/Volumes/Mac12/opt/X11/lib -lfreetype
+g++ -o DrawBrush.o -c DrawBrush.c -I/Volumes/Mac12/opt/X11/include/freetype2 -L/Volumes/Mac12/opt/X11/lib -lfreetype
+ar r libDrawBrush.so DrawBrush.o DrawFont.o
